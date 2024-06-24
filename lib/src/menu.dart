@@ -54,7 +54,7 @@ class MobileMenuConfiguration {
   final MobileMenuWidgetFactory menuWidgetBuilder;
 
   void dispose() {
-    backmanage(false);
+    backmanage(true);
     liftImage.dispose();
     previewImage?.dispose();
   }
