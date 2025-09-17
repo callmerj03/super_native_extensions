@@ -4,8 +4,7 @@ version: 0.8.15
 homepage: https://github.com/superlistapp/super_native_extensions
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
-  flutter: ">=3.0.0"
+  sdk: ">=3.5.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -21,7 +20,7 @@ dependencies:
   irondash_message_channel: ^0.7.0
   device_info_plus: ^10.0.1
   pixel_snap: ^0.1.2
-  web: ^0.5.1
+  web: ^1.1.1
 
 dev_dependencies:
   flutter_test:
@@ -51,12 +50,12 @@ flutter:
         pluginClass: SuperNativeExtensionsPlugin
       ios:
         pluginClass: SuperNativeExtensionsPlugin
-      linux:
-        pluginClass: SuperNativeExtensionsPlugin
-      macos:
-        pluginClass: SuperNativeExtensionsPlugin
-      windows:
-        pluginClass: SuperNativeExtensionsPluginCApi
-      web:
-        pluginClass: SuperNativeExtensionsWeb
-        fileName: super_native_extensions_web.dart
+#      linux:
+#        pluginClass: SuperNativeExtensionsPlugin
+#      macos:
+#        pluginClass: SuperNativeExtensionsPlugin
+#      windows:
+#        pluginClass: SuperNativeExtensionsPluginCApi
+#      web:
+#        pluginClass: SuperNativeExtensionsWeb
+#        fileName: super_native_extensions_web.dart
