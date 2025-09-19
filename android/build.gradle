@@ -27,6 +27,7 @@ android {
     }
 
     compileSdkVersion 35
+    ndkVersion "26.3.11579264"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
